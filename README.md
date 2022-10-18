@@ -1,5 +1,8 @@
 # Final-Project-SkillScanner
 ![assets](assets/wordcloud.png)
+Team: 
+Yu Ting Hu Wu
+Monica Graciela Duarte Arrieche
 
 ## 1. Preamble 🏃
 
@@ -20,7 +23,7 @@ In this project, we studied the skills for the three most in demand job roles th
 * Data Engineering
 
 A total of 1842 data profiles were scrapped from Linkedin (73% were data scientist) via API Rest.
-After Top50 skills per each job category were extracted, we got a total of 80 different skills.
+After that, Top50 skills per each job category were extracted, we got a total of 80 different skills.
 Refer to notebook `Get_skills.ipynb`.
 
 ### 2.2 Provide data-driven insights by means of Exploratory Data Analysis.
@@ -30,7 +33,7 @@ For this project step, data with job offers information was scrapped from Glassd
 ### 2.3. Build Machine Learning models to make a prediction of how a profile fits in each of the job roles.
 The predictions are made based on Machine Learning models, which can generate predictions by using skills data extracted from Linkedin and job announcements posted by employers in Glassdoor. 
 
-Considering that Supervised Learning techniques are used in classification models, and among the several algorithms for supervised classification of texts, the following algorithms were used to build the prediction models:
+Considering that, Supervised Learning techniques are used in classification models, and among the several algorithms for supervised classification, the following algorithms were used to build the prediction models:
 * Logistic Regression
 * KNN (K-Nearest Neighbors)
 * PCA (Principal Component Analysis) + Logistic Regression
@@ -83,13 +86,14 @@ Do you want to scan your profile? Test it by using notebook `SkillScanner_produc
     * Cross Validation (10 folds)
     * Multiclass Parameters
 * Training & Testing
-    * Model Training (80)
-    * Model Testing (20)
+    * Model Training (80%)
+    * Model Testing (20%)
     * Production simulation with unknown data
 * Evaluation 
-    * Evaluation metrics selection (Accuracy, Precision, Recall, f1- micro) 
-    * Results comparison and evaluation
+    * Evaluation metrics selection (Accuracy, Precision, Recall, micro f1-score)
+    * Classification report
     * Confusion Matrix
+    * Results comparison and evaluation
 
 ## 5. SkillScanner User Interface
 
