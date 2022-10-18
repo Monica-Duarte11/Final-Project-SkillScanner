@@ -1,7 +1,7 @@
 # Final-Project-SkillScanner
 ![assets](assets/wordcloud.png)
 Team: 
-Yu Ting Hu Wu
+Yu Ting Hu Wu \
 Monica Graciela Duarte Arrieche
 
 ## 1. Preamble 🏃
