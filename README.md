@@ -1,6 +1,6 @@
 # Final-Project-SkillScanner
 ![assets](assets/wordcloud.png)
-Team: 
+Team: \
 Yu Ting Hu Wu \
 Monica Graciela Duarte Arrieche
 
